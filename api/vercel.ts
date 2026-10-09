@@ -1,5 +1,5 @@
-// Vercel serverless entry — adapts the Hono app to a Vercel function.
+// Vercel serverless entry — adapts the bundled Hono app to a Vercel function.
 import { handle } from "hono/vercel";
-import app from "./boot.ts"; // এখানে শেষে .ts যুক্ত করা হয়েছে
+import app from "../dist/boot.js";
 
 export default handle(app);

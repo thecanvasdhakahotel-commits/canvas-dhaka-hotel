@@ -15,7 +15,7 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
-    "vercel-build": "vite build"
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "2.0.78",
